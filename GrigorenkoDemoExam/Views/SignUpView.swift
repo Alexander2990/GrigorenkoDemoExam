@@ -4,6 +4,7 @@
 //
 //  Created by user on 12.10.2024.
 //
+// Ссылка на проект GitHub: https://github.com/Alexander2990/GrigorenkoDemoExam.git
 
 import SwiftUI
 
