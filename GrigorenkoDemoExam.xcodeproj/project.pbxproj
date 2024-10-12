@@ -28,6 +28,7 @@
 		CEA910312CBA20C0009021AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910302CBA20C0009021AB /* User.swift */; };
 		CEA910342CBA2126009021AB /* Reposetories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910332CBA2126009021AB /* Reposetories.swift */; };
 		CEA910362CBA214C009021AB /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910352CBA214C009021AB /* UserRegistrationViewModel.swift */; };
+		CEA910382CBA2223009021AB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910372CBA2223009021AB /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		CEA910302CBA20C0009021AB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEA910332CBA2126009021AB /* Reposetories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reposetories.swift; sourceTree = "<group>"; };
 		CEA910352CBA214C009021AB /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
+		CEA910372CBA2223009021AB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA910242CBA1E50009021AB /* View.swift */,
+				CEA910372CBA2223009021AB /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA910362CBA214C009021AB /* UserRegistrationViewModel.swift in Sources */,
+				CEA910382CBA2223009021AB /* String.swift in Sources */,
 				CEA90FDF2CBA1A5E009021AB /* SignUp.swift in Sources */,
 				CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */,
 				CEA9102C2CBA1FA6009021AB /* CustomTextFieldStyle.swift in Sources */,
