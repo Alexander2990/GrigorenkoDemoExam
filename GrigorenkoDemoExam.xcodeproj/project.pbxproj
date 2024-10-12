@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */; };
-		CEA90FDF2CBA1A5E009021AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDE2CBA1A5E009021AB /* ContentView.swift */; };
+		CEA90FDF2CBA1A5E009021AB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDE2CBA1A5E009021AB /* SignUp.swift */; };
 		CEA90FE12CBA1A5F009021AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA90FE02CBA1A5F009021AB /* Assets.xcassets */; };
 		CEA90FE42CBA1A5F009021AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */; };
 		CEA90FEE2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FED2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift */; };
 		CEA90FF82CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FF72CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift */; };
 		CEA90FFA2CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FF92CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift */; };
+		CEA910092CBA1BE1009021AB /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = CEA910082CBA1BE1009021AB /* Auth */; };
+		CEA9100B2CBA1BE1009021AB /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = CEA9100A2CBA1BE1009021AB /* Functions */; };
+		CEA9100D2CBA1BE1009021AB /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = CEA9100C2CBA1BE1009021AB /* PostgREST */; };
+		CEA9100F2CBA1BE1009021AB /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = CEA9100E2CBA1BE1009021AB /* Realtime */; };
+		CEA910112CBA1BE1009021AB /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CEA910102CBA1BE1009021AB /* Storage */; };
+		CEA910132CBA1BE1009021AB /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CEA910122CBA1BE1009021AB /* Supabase */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		CEA90FD92CBA1A5E009021AB /* GrigorenkoDemoExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrigorenkoDemoExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamApp.swift; sourceTree = "<group>"; };
-		CEA90FDE2CBA1A5E009021AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA90FDE2CBA1A5E009021AB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		CEA90FE02CBA1A5F009021AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEA90FE92CBA1A60009021AB /* GrigorenkoDemoExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrigorenkoDemoExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +57,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA9100D2CBA1BE1009021AB /* PostgREST in Frameworks */,
+				CEA9100B2CBA1BE1009021AB /* Functions in Frameworks */,
+				CEA910132CBA1BE1009021AB /* Supabase in Frameworks */,
+				CEA910092CBA1BE1009021AB /* Auth in Frameworks */,
+				CEA910112CBA1BE1009021AB /* Storage in Frameworks */,
+				CEA9100F2CBA1BE1009021AB /* Realtime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +106,8 @@
 		CEA90FDB2CBA1A5E009021AB /* GrigorenkoDemoExam */ = {
 			isa = PBXGroup;
 			children = (
+				CEA910062CBA1B8F009021AB /* Views */,
 				CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */,
-				CEA90FDE2CBA1A5E009021AB /* ContentView.swift */,
 				CEA90FE02CBA1A5F009021AB /* Assets.xcassets */,
 				CEA90FE22CBA1A5F009021AB /* Preview Content */,
 			);
@@ -127,6 +139,14 @@
 			path = GrigorenkoDemoExamUITests;
 			sourceTree = "<group>";
 		};
+		CEA910062CBA1B8F009021AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEA90FDE2CBA1A5E009021AB /* SignUp.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +163,14 @@
 			dependencies = (
 			);
 			name = GrigorenkoDemoExam;
+			packageProductDependencies = (
+				CEA910082CBA1BE1009021AB /* Auth */,
+				CEA9100A2CBA1BE1009021AB /* Functions */,
+				CEA9100C2CBA1BE1009021AB /* PostgREST */,
+				CEA9100E2CBA1BE1009021AB /* Realtime */,
+				CEA910102CBA1BE1009021AB /* Storage */,
+				CEA910122CBA1BE1009021AB /* Supabase */,
+			);
 			productName = GrigorenkoDemoExam;
 			productReference = CEA90FD92CBA1A5E009021AB /* GrigorenkoDemoExam.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,9 @@
 				Base,
 			);
 			mainGroup = CEA90FD02CBA1A5E009021AB;
+			packageReferences = (
+				CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = CEA90FDA2CBA1A5E009021AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA90FDF2CBA1A5E009021AB /* ContentView.swift in Sources */,
+				CEA90FDF2CBA1A5E009021AB /* SignUp.swift in Sources */,
 				CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +625,50 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEA910082CBA1BE1009021AB /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		CEA9100A2CBA1BE1009021AB /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		CEA9100C2CBA1BE1009021AB /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		CEA9100E2CBA1BE1009021AB /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		CEA910102CBA1BE1009021AB /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		CEA910122CBA1BE1009021AB /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA910072CBA1BE1009021AB /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEA90FD12CBA1A5E009021AB /* Project object */;
 }
