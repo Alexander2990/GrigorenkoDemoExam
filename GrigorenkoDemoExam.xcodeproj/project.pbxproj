@@ -32,6 +32,7 @@
 		CEA9103A2CBA22CE009021AB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910392CBA22CE009021AB /* LoginView.swift */; };
 		CEA9103C2CBA2365009021AB /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9103B2CBA2365009021AB /* ForgotPasswordView.swift */; };
 		CEA9103E2CBA23D2009021AB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9103D2CBA23D2009021AB /* HomeView.swift */; };
+		CEA910422CBA2424009021AB /* OTPVerificationViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910412CBA2424009021AB /* OTPVerificationViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		CEA910392CBA22CE009021AB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		CEA9103B2CBA2365009021AB /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		CEA9103D2CBA23D2009021AB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CEA910412CBA2424009021AB /* OTPVerificationViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				CEA910392CBA22CE009021AB /* LoginView.swift */,
 				CEA9103B2CBA2365009021AB /* ForgotPasswordView.swift */,
 				CEA9103D2CBA23D2009021AB /* HomeView.swift */,
+				CEA910412CBA2424009021AB /* OTPVerificationViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				CEA9102A2CBA1F73009021AB /* CustomButtonStyle.swift in Sources */,
 				CEA9103A2CBA22CE009021AB /* LoginView.swift in Sources */,
 				CEA910342CBA2126009021AB /* Reposetories.swift in Sources */,
+				CEA910422CBA2424009021AB /* OTPVerificationViews.swift in Sources */,
 				CEA9103C2CBA2365009021AB /* ForgotPasswordView.swift in Sources */,
 				CEA910312CBA20C0009021AB /* User.swift in Sources */,
 				CEA9102E2CBA1FFB009021AB /* StyledCheckBox.swift in Sources */,
