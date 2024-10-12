@@ -20,6 +20,7 @@
 		CEA9100F2CBA1BE1009021AB /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = CEA9100E2CBA1BE1009021AB /* Realtime */; };
 		CEA910112CBA1BE1009021AB /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = CEA910102CBA1BE1009021AB /* Storage */; };
 		CEA910132CBA1BE1009021AB /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = CEA910122CBA1BE1009021AB /* Supabase */; };
+		CEA910252CBA1E50009021AB /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910242CBA1E50009021AB /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		CEA910212CBA1D78009021AB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		CEA910222CBA1D78009021AB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
 		CEA910232CBA1D9C009021AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CEA910242CBA1E50009021AB /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		CEA910152CBA1CBE009021AB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CEA910242CBA1E50009021AB /* View.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 			files = (
 				CEA90FDF2CBA1A5E009021AB /* SignUp.swift in Sources */,
 				CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */,
+				CEA910252CBA1E50009021AB /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
