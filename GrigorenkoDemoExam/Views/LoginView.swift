@@ -9,6 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     
+    // MARK: Private property
     @State private var email = "" // Email пользователя
     @State private var password = "" // Пароль пользователя
     
@@ -122,6 +123,7 @@ struct LoginView: View {
             })
     }
     
+    // MARK: Body
     var body: some View {
         VStack(alignment: .leading, spacing: 25) {
             headerSection
@@ -138,6 +140,8 @@ struct LoginView: View {
         .padding(.horizontal)
         .frame(maxWidth: .infinity, alignment: .leading)
     }
+    
+    // MARK: Private func
     
     // Обработка нажатия кнопки входа
     private func performLogin() {

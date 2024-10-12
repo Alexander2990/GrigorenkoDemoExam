@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct LabeledTextField: View {
+    
     let title: String // Заголовок текстового поля
     let placeholder: String // Текст-заполнитель
     let isPasswordField: Bool // Определяет, является ли поле паролем
@@ -28,6 +29,7 @@ struct LabeledTextField: View {
     }
     
     var body: some View {
+        
         VStack(alignment: .leading) {
             Text(title)
                 .applyRobotoFont(size: 14, weight: .bold)

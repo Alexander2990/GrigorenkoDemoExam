@@ -10,6 +10,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         Text("Home")
+            .applyRobotoFont(size: 14, weight: .bold)
     }
 }
 

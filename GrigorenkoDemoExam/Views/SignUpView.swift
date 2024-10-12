@@ -10,6 +10,7 @@ import SwiftUI
 
 struct SignUpView: View {
     
+    // MARK: Private property
     @State private var isTermsAccepted = false // Состояние для отслеживания принятия условий
     @State private var isEmailInvalid = false // Состояние для отслеживания валидности email
     @State private var isProgress = false // Состояние для отображения процесса загрузки
@@ -53,6 +54,7 @@ struct SignUpView: View {
     
     @Environment(\.openURL) var openURL // Переменная окружения для открытия URL
     
+    // MARK: Body
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 30) {
@@ -155,6 +157,7 @@ struct SignUpView: View {
         .navigationBarHidden(true)
     }
     
+    // MARK: Private func
     // Обработка нажатия кнопки регистрации
     private func signUpButtonTapped() {
         guard !isProgress else { return }

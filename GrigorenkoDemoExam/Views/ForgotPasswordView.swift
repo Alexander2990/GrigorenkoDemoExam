@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ForgotPasswordView: View {
     
+    // MARK: Private property
     @State private var email = "" // Email для восстановления пароля
     @State private var isLoading = false
     
     @State private var isErrorPresented = false // Состояние отображения ошибки
     @State private var navigateToOTP = false
     
+    // MARK: Body
     var body: some View {
         
         VStack(alignment: .leading, spacing: 40) {

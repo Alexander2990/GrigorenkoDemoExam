@@ -18,13 +18,12 @@ struct OTPVerificationView: View {
                 
                 // Заголовок экрана OTP
                 Text("OTP Verification")
-                    .font(.title)
-                    .fontWeight(.bold)
+                    .applyRobotoFont(size: 24, weight: .medium)
                     .padding()
                 
                 // Подзаголовок с инструкцией для пользователя
                 Text("Enter the 6 digit numbers sent to your email")
-                    .font(.subheadline)
+                    .applyRobotoFont(size: 14, weight: .medium)
                     .multilineTextAlignment(.center)
                     .padding()
             }
@@ -56,7 +55,7 @@ struct OTPVerificationView: View {
             // Таймер для повторной отправки OTP-кода
             if timer > 0 {
                 Text("If you didn't receive code, resend after \(timerFormatted())")
-                    .font(.footnote)
+                    .applyRobotoFont(size: 14, weight: .medium)
                     .foregroundColor(.gray)
                     .frame(maxWidth: .infinity, alignment: .center)
             } else {
@@ -64,14 +63,14 @@ struct OTPVerificationView: View {
                 Button("Resend Code") {
                     startTimer() // Запуск таймера заново
                 }
-                .font(.footnote)
+                .applyRobotoFont(size: 14, weight: .medium)
                 .foregroundColor(.blue)
                 .frame(maxWidth: .infinity, alignment: .center)
             }
             
             // Кнопка для установки нового пароля
             Button(action: {
-                // Добавить действие для установки нового пароля
+                // Установка нового пароля
             }) {
                 Text("Set New Password")
                     .font(.headline)
@@ -83,6 +82,7 @@ struct OTPVerificationView: View {
             }
             .disabled(otpCode.contains { $0.isEmpty }) // Кнопка отключена, пока все поля не заполнены
             .padding(.horizontal, 20)
+            
             Spacer()
         }
         .padding()
