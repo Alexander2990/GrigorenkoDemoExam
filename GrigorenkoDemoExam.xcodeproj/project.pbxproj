@@ -106,6 +106,7 @@
 		CEA90FDB2CBA1A5E009021AB /* GrigorenkoDemoExam */ = {
 			isa = PBXGroup;
 			children = (
+				CEA910142CBA1CAB009021AB /* Common */,
 				CEA910062CBA1B8F009021AB /* Views */,
 				CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */,
 				CEA90FE02CBA1A5F009021AB /* Assets.xcassets */,
@@ -145,6 +146,29 @@
 				CEA90FDE2CBA1A5E009021AB /* SignUp.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CEA910142CBA1CAB009021AB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CEA910162CBA1CCF009021AB /* Font */,
+				CEA910152CBA1CBE009021AB /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CEA910152CBA1CBE009021AB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CEA910162CBA1CCF009021AB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SignUp: View {
+    
     var body: some View {
         VStack {
       
