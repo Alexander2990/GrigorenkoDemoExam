@@ -50,6 +50,19 @@
 		CEA90FF32CBA1A60009021AB /* GrigorenkoDemoExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrigorenkoDemoExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA90FF72CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamUITests.swift; sourceTree = "<group>"; };
 		CEA90FF92CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEA910172CBA1D77009021AB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CEA910182CBA1D77009021AB /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		CEA910192CBA1D77009021AB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		CEA9101A2CBA1D77009021AB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		CEA9101B2CBA1D77009021AB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		CEA9101C2CBA1D77009021AB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CEA9101D2CBA1D77009021AB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CEA9101E2CBA1D77009021AB /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		CEA9101F2CBA1D77009021AB /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CEA910202CBA1D77009021AB /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CEA910212CBA1D78009021AB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		CEA910222CBA1D78009021AB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		CEA910232CBA1D9C009021AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +119,7 @@
 		CEA90FDB2CBA1A5E009021AB /* GrigorenkoDemoExam */ = {
 			isa = PBXGroup;
 			children = (
+				CEA910232CBA1D9C009021AB /* Info.plist */,
 				CEA910142CBA1CAB009021AB /* Common */,
 				CEA910062CBA1B8F009021AB /* Views */,
 				CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */,
@@ -167,6 +181,18 @@
 		CEA910162CBA1CCF009021AB /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				CEA9101E2CBA1D77009021AB /* Roboto-Black.ttf */,
+				CEA910172CBA1D77009021AB /* Roboto-BlackItalic.ttf */,
+				CEA910212CBA1D78009021AB /* Roboto-Bold.ttf */,
+				CEA9101F2CBA1D77009021AB /* Roboto-BoldItalic.ttf */,
+				CEA910182CBA1D77009021AB /* Roboto-Italic.ttf */,
+				CEA9101C2CBA1D77009021AB /* Roboto-Light.ttf */,
+				CEA910222CBA1D78009021AB /* Roboto-LightItalic.ttf */,
+				CEA910192CBA1D77009021AB /* Roboto-Medium.ttf */,
+				CEA9101D2CBA1D77009021AB /* Roboto-MediumItalic.ttf */,
+				CEA9101A2CBA1D77009021AB /* Roboto-Regular.ttf */,
+				CEA9101B2CBA1D77009021AB /* Roboto-Thin.ttf */,
+				CEA910202CBA1D77009021AB /* Roboto-ThinItalic.ttf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -479,7 +505,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GrigorenkoDemoExam/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Redi express";
+				INFOPLIST_FILE = GrigorenkoDemoExam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -513,7 +539,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GrigorenkoDemoExam/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Redi express";
+				INFOPLIST_FILE = GrigorenkoDemoExam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
