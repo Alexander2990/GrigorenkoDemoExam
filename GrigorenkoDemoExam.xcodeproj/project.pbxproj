@@ -30,6 +30,7 @@
 		CEA910362CBA214C009021AB /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910352CBA214C009021AB /* UserRegistrationViewModel.swift */; };
 		CEA910382CBA2223009021AB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910372CBA2223009021AB /* String.swift */; };
 		CEA9103A2CBA22CE009021AB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910392CBA22CE009021AB /* LoginView.swift */; };
+		CEA9103C2CBA2365009021AB /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9103B2CBA2365009021AB /* ForgotPasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		CEA910352CBA214C009021AB /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
 		CEA910372CBA2223009021AB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		CEA910392CBA22CE009021AB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CEA9103B2CBA2365009021AB /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				CEA90FDE2CBA1A5E009021AB /* SignUpView.swift */,
 				CEA910392CBA22CE009021AB /* LoginView.swift */,
+				CEA9103B2CBA2365009021AB /* ForgotPasswordView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				CEA9102A2CBA1F73009021AB /* CustomButtonStyle.swift in Sources */,
 				CEA9103A2CBA22CE009021AB /* LoginView.swift in Sources */,
 				CEA910342CBA2126009021AB /* Reposetories.swift in Sources */,
+				CEA9103C2CBA2365009021AB /* ForgotPasswordView.swift in Sources */,
 				CEA910312CBA20C0009021AB /* User.swift in Sources */,
 				CEA9102E2CBA1FFB009021AB /* StyledCheckBox.swift in Sources */,
 				CEA910252CBA1E50009021AB /* View.swift in Sources */,
