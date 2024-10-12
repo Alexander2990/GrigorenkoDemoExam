@@ -20,7 +20,7 @@ struct ForgotPasswordView: View {
     var body: some View {
         
         VStack(alignment: .leading, spacing: 40) {
-            VStack(alignment: .leading, spacing: 5) {
+            VStack(alignment: .leading, spacing: 8) {
                 Text("Forgot Password")
                     .applyRobotoFont(size: 24, weight: .medium)
                     .foregroundStyle(.black)

@@ -14,19 +14,18 @@ struct OTPVerificationView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            VStack(alignment: .leading, spacing: 1) {
+            VStack(alignment: .leading, spacing: 8) {
                 
                 // Заголовок экрана OTP
                 Text("OTP Verification")
                     .applyRobotoFont(size: 24, weight: .medium)
-                    .padding()
+                    .foregroundStyle(.black)
                 
                 // Подзаголовок с инструкцией для пользователя
                 Text("Enter the 6 digit numbers sent to your email")
                     .applyRobotoFont(size: 14, weight: .medium)
-                    .multilineTextAlignment(.center)
-                    .padding()
-            }
+                    .foregroundStyle(.gray)
+            }.padding()
             
             
             // Поля для ввода 6-значного OTP-кода
@@ -43,7 +42,7 @@ struct OTPVerificationView: View {
                     ))
                     .keyboardType(.numberPad) // Используем числовую клавиатуру
                     .multilineTextAlignment(.center) // Выравнивание текста по центру
-                    .font(.title)
+                    .applyRobotoFont(size: 14, weight: .medium) // Применение шрифта Roboto
                     .frame(width: 45, height: 45) // Задаем размер для текстового поля
                     .background(Color(UIColor.systemGray6)) // Фон текстового поля
                     .cornerRadius(8) // Закругленные углы текстового поля
@@ -73,7 +72,7 @@ struct OTPVerificationView: View {
                 // Установка нового пароля
             }) {
                 Text("Set New Password")
-                    .font(.headline)
+                    .applyRobotoFont(size: 14, weight: .bold)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .padding()
@@ -83,15 +82,14 @@ struct OTPVerificationView: View {
             .disabled(otpCode.contains { $0.isEmpty }) // Кнопка отключена, пока все поля не заполнены
             .padding(.horizontal, 20)
             
-            Spacer()
         }
-        .padding()
+        .frame(maxWidth: .infinity, alignment: .leading)
         .navigationBarBackButtonHidden(true)
         .onAppear(perform: startTimer) // Запуск таймера при появлении экрана
     }
     
     // Функция для запуска таймера
-    func startTimer() {
+    private func startTimer() {
         timer = 60
         Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
             if self.timer > 0 {
@@ -103,7 +101,7 @@ struct OTPVerificationView: View {
     }
     
     // Форматирование таймера в формате MM:SS
-    func timerFormatted() -> String {
+    private func timerFormatted() -> String {
         let minutes = timer / 60
         let seconds = timer % 60
         return String(format: "%01d:%02d", minutes, seconds)

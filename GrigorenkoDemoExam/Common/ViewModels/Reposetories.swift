@@ -22,9 +22,7 @@ class UserRepository {
     func registerUser(name: String, phone: String, email: String, password: String) async throws {
         
         try await supabaseClient.auth.signUp(email: email, password: password)
-        
         let user = try await supabaseClient.auth.session.user
-        
         let newUser = User(id: user.id, name: name, phone: phone, created_at: .now)
         
         try await supabaseClient.from("users")

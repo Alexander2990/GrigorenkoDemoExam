@@ -16,7 +16,6 @@ class UserRegistrationViewModel: ObservableObject{
     @Published var confirmPassword = "" // Подтверждение пароля
     
     @Published var isProgress = false // Состояние загрузки при регистрации
-    @Published var isNavigate = false // Состояние для навигации (не используется)
     @Published var isNavigateToLogin = false // Состояние для навигации на экран входа
     @Published var error = false // Состояние отображения ошибки
     @Published var errorMessage = "" // Сообщение об ошибке
