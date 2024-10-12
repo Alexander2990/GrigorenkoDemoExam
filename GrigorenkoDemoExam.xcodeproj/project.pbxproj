@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */; };
-		CEA90FDF2CBA1A5E009021AB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDE2CBA1A5E009021AB /* SignUp.swift */; };
+		CEA90FDF2CBA1A5E009021AB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDE2CBA1A5E009021AB /* SignUpView.swift */; };
 		CEA90FE12CBA1A5F009021AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA90FE02CBA1A5F009021AB /* Assets.xcassets */; };
 		CEA90FE42CBA1A5F009021AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */; };
 		CEA90FEE2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FED2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift */; };
@@ -29,6 +29,7 @@
 		CEA910342CBA2126009021AB /* Reposetories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910332CBA2126009021AB /* Reposetories.swift */; };
 		CEA910362CBA214C009021AB /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910352CBA214C009021AB /* UserRegistrationViewModel.swift */; };
 		CEA910382CBA2223009021AB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910372CBA2223009021AB /* String.swift */; };
+		CEA9103A2CBA22CE009021AB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA910392CBA22CE009021AB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,7 @@
 /* Begin PBXFileReference section */
 		CEA90FD92CBA1A5E009021AB /* GrigorenkoDemoExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrigorenkoDemoExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamApp.swift; sourceTree = "<group>"; };
-		CEA90FDE2CBA1A5E009021AB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CEA90FDE2CBA1A5E009021AB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		CEA90FE02CBA1A5F009021AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEA90FE92CBA1A60009021AB /* GrigorenkoDemoExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrigorenkoDemoExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +82,7 @@
 		CEA910332CBA2126009021AB /* Reposetories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reposetories.swift; sourceTree = "<group>"; };
 		CEA910352CBA214C009021AB /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
 		CEA910372CBA2223009021AB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CEA910392CBA22CE009021AB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,7 +177,8 @@
 		CEA910062CBA1B8F009021AB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CEA90FDE2CBA1A5E009021AB /* SignUp.swift */,
+				CEA90FDE2CBA1A5E009021AB /* SignUpView.swift */,
+				CEA910392CBA22CE009021AB /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -391,10 +394,11 @@
 			files = (
 				CEA910362CBA214C009021AB /* UserRegistrationViewModel.swift in Sources */,
 				CEA910382CBA2223009021AB /* String.swift in Sources */,
-				CEA90FDF2CBA1A5E009021AB /* SignUp.swift in Sources */,
+				CEA90FDF2CBA1A5E009021AB /* SignUpView.swift in Sources */,
 				CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */,
 				CEA9102C2CBA1FA6009021AB /* CustomTextFieldStyle.swift in Sources */,
 				CEA9102A2CBA1F73009021AB /* CustomButtonStyle.swift in Sources */,
+				CEA9103A2CBA22CE009021AB /* LoginView.swift in Sources */,
 				CEA910342CBA2126009021AB /* Reposetories.swift in Sources */,
 				CEA910312CBA20C0009021AB /* User.swift in Sources */,
 				CEA9102E2CBA1FFB009021AB /* StyledCheckBox.swift in Sources */,
