@@ -22,7 +22,7 @@ struct CustomTextFieldStyle: TextFieldStyle {
                     .stroke(Color.gray, lineWidth: 1)
             )
             .autocorrectionDisabled()
-//            .textInputAutocapitalization(.never)
+            .textInputAutocapitalization(.never)
     }
 }
 
