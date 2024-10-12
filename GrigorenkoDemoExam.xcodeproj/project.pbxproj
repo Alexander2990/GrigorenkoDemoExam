@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */; };
+		CEA90FDF2CBA1A5E009021AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FDE2CBA1A5E009021AB /* ContentView.swift */; };
+		CEA90FE12CBA1A5F009021AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA90FE02CBA1A5F009021AB /* Assets.xcassets */; };
+		CEA90FE42CBA1A5F009021AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */; };
+		CEA90FEE2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FED2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift */; };
+		CEA90FF82CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FF72CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift */; };
+		CEA90FFA2CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA90FF92CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA90FEA2CBA1A60009021AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA90FD12CBA1A5E009021AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA90FD82CBA1A5E009021AB;
+			remoteInfo = GrigorenkoDemoExam;
+		};
+		CEA90FF42CBA1A60009021AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA90FD12CBA1A5E009021AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA90FD82CBA1A5E009021AB;
+			remoteInfo = GrigorenkoDemoExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA90FD92CBA1A5E009021AB /* GrigorenkoDemoExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrigorenkoDemoExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamApp.swift; sourceTree = "<group>"; };
+		CEA90FDE2CBA1A5E009021AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA90FE02CBA1A5F009021AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEA90FE92CBA1A60009021AB /* GrigorenkoDemoExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrigorenkoDemoExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA90FED2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamTests.swift; sourceTree = "<group>"; };
+		CEA90FF32CBA1A60009021AB /* GrigorenkoDemoExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrigorenkoDemoExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA90FF72CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamUITests.swift; sourceTree = "<group>"; };
+		CEA90FF92CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrigorenkoDemoExamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA90FD62CBA1A5E009021AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA90FE62CBA1A60009021AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA90FF02CBA1A60009021AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA90FD02CBA1A5E009021AB = {
+			isa = PBXGroup;
+			children = (
+				CEA90FDB2CBA1A5E009021AB /* GrigorenkoDemoExam */,
+				CEA90FEC2CBA1A60009021AB /* GrigorenkoDemoExamTests */,
+				CEA90FF62CBA1A60009021AB /* GrigorenkoDemoExamUITests */,
+				CEA90FDA2CBA1A5E009021AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA90FDA2CBA1A5E009021AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA90FD92CBA1A5E009021AB /* GrigorenkoDemoExam.app */,
+				CEA90FE92CBA1A60009021AB /* GrigorenkoDemoExamTests.xctest */,
+				CEA90FF32CBA1A60009021AB /* GrigorenkoDemoExamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA90FDB2CBA1A5E009021AB /* GrigorenkoDemoExam */ = {
+			isa = PBXGroup;
+			children = (
+				CEA90FDC2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift */,
+				CEA90FDE2CBA1A5E009021AB /* ContentView.swift */,
+				CEA90FE02CBA1A5F009021AB /* Assets.xcassets */,
+				CEA90FE22CBA1A5F009021AB /* Preview Content */,
+			);
+			path = GrigorenkoDemoExam;
+			sourceTree = "<group>";
+		};
+		CEA90FE22CBA1A5F009021AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEA90FE32CBA1A5F009021AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEA90FEC2CBA1A60009021AB /* GrigorenkoDemoExamTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA90FED2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift */,
+			);
+			path = GrigorenkoDemoExamTests;
+			sourceTree = "<group>";
+		};
+		CEA90FF62CBA1A60009021AB /* GrigorenkoDemoExamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA90FF72CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift */,
+				CEA90FF92CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift */,
+			);
+			path = GrigorenkoDemoExamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA90FD82CBA1A5E009021AB /* GrigorenkoDemoExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA90FFD2CBA1A60009021AB /* Build configuration list for PBXNativeTarget "GrigorenkoDemoExam" */;
+			buildPhases = (
+				CEA90FD52CBA1A5E009021AB /* Sources */,
+				CEA90FD62CBA1A5E009021AB /* Frameworks */,
+				CEA90FD72CBA1A5E009021AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrigorenkoDemoExam;
+			productName = GrigorenkoDemoExam;
+			productReference = CEA90FD92CBA1A5E009021AB /* GrigorenkoDemoExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA90FE82CBA1A60009021AB /* GrigorenkoDemoExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA910002CBA1A60009021AB /* Build configuration list for PBXNativeTarget "GrigorenkoDemoExamTests" */;
+			buildPhases = (
+				CEA90FE52CBA1A60009021AB /* Sources */,
+				CEA90FE62CBA1A60009021AB /* Frameworks */,
+				CEA90FE72CBA1A60009021AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA90FEB2CBA1A60009021AB /* PBXTargetDependency */,
+			);
+			name = GrigorenkoDemoExamTests;
+			productName = GrigorenkoDemoExamTests;
+			productReference = CEA90FE92CBA1A60009021AB /* GrigorenkoDemoExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA90FF22CBA1A60009021AB /* GrigorenkoDemoExamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA910032CBA1A60009021AB /* Build configuration list for PBXNativeTarget "GrigorenkoDemoExamUITests" */;
+			buildPhases = (
+				CEA90FEF2CBA1A60009021AB /* Sources */,
+				CEA90FF02CBA1A60009021AB /* Frameworks */,
+				CEA90FF12CBA1A60009021AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA90FF52CBA1A60009021AB /* PBXTargetDependency */,
+			);
+			name = GrigorenkoDemoExamUITests;
+			productName = GrigorenkoDemoExamUITests;
+			productReference = CEA90FF32CBA1A60009021AB /* GrigorenkoDemoExamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA90FD12CBA1A5E009021AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CEA90FD82CBA1A5E009021AB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CEA90FE82CBA1A60009021AB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEA90FD82CBA1A5E009021AB;
+					};
+					CEA90FF22CBA1A60009021AB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEA90FD82CBA1A5E009021AB;
+					};
+				};
+			};
+			buildConfigurationList = CEA90FD42CBA1A5E009021AB /* Build configuration list for PBXProject "GrigorenkoDemoExam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA90FD02CBA1A5E009021AB;
+			productRefGroup = CEA90FDA2CBA1A5E009021AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA90FD82CBA1A5E009021AB /* GrigorenkoDemoExam */,
+				CEA90FE82CBA1A60009021AB /* GrigorenkoDemoExamTests */,
+				CEA90FF22CBA1A60009021AB /* GrigorenkoDemoExamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA90FD72CBA1A5E009021AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA90FE42CBA1A5F009021AB /* Preview Assets.xcassets in Resources */,
+				CEA90FE12CBA1A5F009021AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA90FE72CBA1A60009021AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA90FF12CBA1A60009021AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA90FD52CBA1A5E009021AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA90FDF2CBA1A5E009021AB /* ContentView.swift in Sources */,
+				CEA90FDD2CBA1A5E009021AB /* GrigorenkoDemoExamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA90FE52CBA1A60009021AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA90FEE2CBA1A60009021AB /* GrigorenkoDemoExamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA90FEF2CBA1A60009021AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA90FF82CBA1A60009021AB /* GrigorenkoDemoExamUITests.swift in Sources */,
+				CEA90FFA2CBA1A60009021AB /* GrigorenkoDemoExamUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA90FEB2CBA1A60009021AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA90FD82CBA1A5E009021AB /* GrigorenkoDemoExam */;
+			targetProxy = CEA90FEA2CBA1A60009021AB /* PBXContainerItemProxy */;
+		};
+		CEA90FF52CBA1A60009021AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA90FD82CBA1A5E009021AB /* GrigorenkoDemoExam */;
+			targetProxy = CEA90FF42CBA1A60009021AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEA90FFB2CBA1A60009021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA90FFC2CBA1A60009021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA90FFE2CBA1A60009021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrigorenkoDemoExam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.GrigorenkoDemoExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA90FFF2CBA1A60009021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GrigorenkoDemoExam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.GrigorenkoDemoExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEA910012CBA1A60009021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.GrigorenkoDemoExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrigorenkoDemoExam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GrigorenkoDemoExam";
+			};
+			name = Debug;
+		};
+		CEA910022CBA1A60009021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.GrigorenkoDemoExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GrigorenkoDemoExam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GrigorenkoDemoExam";
+			};
+			name = Release;
+		};
+		CEA910042CBA1A60009021AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.GrigorenkoDemoExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrigorenkoDemoExam;
+			};
+			name = Debug;
+		};
+		CEA910052CBA1A60009021AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.GrigorenkoDemoExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrigorenkoDemoExam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA90FD42CBA1A5E009021AB /* Build configuration list for PBXProject "GrigorenkoDemoExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA90FFB2CBA1A60009021AB /* Debug */,
+				CEA90FFC2CBA1A60009021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA90FFD2CBA1A60009021AB /* Build configuration list for PBXNativeTarget "GrigorenkoDemoExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA90FFE2CBA1A60009021AB /* Debug */,
+				CEA90FFF2CBA1A60009021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA910002CBA1A60009021AB /* Build configuration list for PBXNativeTarget "GrigorenkoDemoExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA910012CBA1A60009021AB /* Debug */,
+				CEA910022CBA1A60009021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA910032CBA1A60009021AB /* Build configuration list for PBXNativeTarget "GrigorenkoDemoExamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA910042CBA1A60009021AB /* Debug */,
+				CEA910052CBA1A60009021AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA90FD12CBA1A5E009021AB /* Project object */;
+}
